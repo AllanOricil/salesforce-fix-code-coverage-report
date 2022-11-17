@@ -1,0 +1,24 @@
+{
+  "name": "salesforce-fix-code-coverage-reports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VodafoneIS/salesforce-fix-code-coverage-reports-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VodafoneIS/salesforce-fix-code-coverage-reports-action/issues"
+  },
+  "homepage": "https://github.com/VodafoneIS/salesforce-fix-code-coverage-reports-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "glob": "^8.0.3"
+  }
+}
